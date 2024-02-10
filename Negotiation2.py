@@ -8,7 +8,7 @@ class NegotiationEngine:
 
     def start_negotiation(self):
         print(f"Negotiation between {self.buyer_name} and {self.seller_name} started.")
-        print(f"Initial price set by {self.seller_name}: ${self.initial_price}")
+        print(f"Initial price set by {self.seller_name}: Rs{self.initial_price}")
 
         buyer_offer = self.initial_price
         seller_offer = self.initial_price
